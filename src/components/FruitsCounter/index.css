@@ -1,0 +1,78 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 10px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.title {
+  color: #000000;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  padding: 8px;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: solid;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-image{
+    width: 300px;
+    height: 300px;
+  }
+  .button{
+    margin: 20px;
+    font-size: 22px;
+    padding: 20px;
+  }
+}
