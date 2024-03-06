@@ -20,7 +20,7 @@ class FruitsCounter extends Component {
       <div className="bg-container">
         <div className="card-container">
           <h1 className="title">
-            Bob ate {mango} mangoes {banana} bananas
+            Bob ate <span className = 'counter'>{mango}</span> mangoes <span>{banana}</span> bananas
           </h1>
           <div className="container">
             <div className="card">
